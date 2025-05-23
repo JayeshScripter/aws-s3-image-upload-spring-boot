@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS S3 Image Uploader</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>AWS S3 Image Uploader</h1>
+
+    <div class="upload-section card">
+        <h2>Upload Image</h2>
+        <input type="file" id="imageInput" accept="image/*">
+        <button id="uploadButton">Upload to S3</button>
+        <p id="uploadMessage"></p>
+    </div>
+
+    <div class="gallery-section card">
+        <h2>Image Gallery</h2>
+        <div id="imageGallery" class="image-grid">
+        </div>
+        <p id="galleryMessage"></p>
+    </div>
+</div>
+
+<div id="imageModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modalImage">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
