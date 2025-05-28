@@ -1,5 +1,4 @@
-# aws-s3-image-upload-spring-boot
-This project is a Spring Boot application that demonstrates how to upload and manage images using Amazon S3
+
 # AWS-S3-image-upload-spring-boot-app
 
 A java spring-boot photo uploading app which saves all the photos uploaded from a simple UI to an AWS S3 Bucket. 
